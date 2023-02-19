@@ -1,5 +1,5 @@
 
-function MassageText(props) {
+function MessageText(props) {
     return (
         <li className={"message " + props.type}>
             <div className="icon">{props.letter}</div>
@@ -8,4 +8,4 @@ function MassageText(props) {
     )
 }
 
-export default MassageText;
+export default MessageText;

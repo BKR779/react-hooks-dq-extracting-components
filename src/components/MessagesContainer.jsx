@@ -1,4 +1,4 @@
-import MassageText from "./massagesText";
+import MessageText from "./MessagesText";
 import { messages } from "../data";
 
 function MesaggeContainer() {
@@ -6,7 +6,7 @@ function MesaggeContainer() {
         <section className="messages">
             <ul>
                 {messages.map(message =>
-                    <MassageText type={message.type}
+                    <MessageText type={message.type}
                         content={message.content}
                         letter={message.name.slice(0, 1)}
                     />
